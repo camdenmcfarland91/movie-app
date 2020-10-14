@@ -4,12 +4,6 @@ import { Grid, Row, Col, Button } from "react-bootstrap";
 import { FormInputs } from "components/FormInputs/FormInputs.jsx";
 import axios from 'axios';
 
-
-
-
-
-
-
 class AddCategory extends Component {
 
   constructor(props) {

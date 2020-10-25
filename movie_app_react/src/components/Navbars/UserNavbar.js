@@ -1,6 +1,7 @@
 
 import React, { Component } from "react";
 import { Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import UserNavbarLinks from "./UserNavbarLinks.jsx";
 
@@ -33,7 +34,7 @@ class UserNavbar extends Component {
       <Navbar fluid>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#pablo">{this.props.brandText}</a>
+            <Link to="/user/profile">{this.props.brandText}</Link>
           </Navbar.Brand>
           <Navbar.Toggle onClick={this.mobileSidebarToggle} />
         </Navbar.Header>

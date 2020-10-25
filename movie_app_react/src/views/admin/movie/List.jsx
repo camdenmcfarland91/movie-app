@@ -51,7 +51,7 @@ class CategoryList extends Component {
       <div className="content">
         <Grid fluid>
           <Row>
-            <Col md={6}><h4>Items</h4>
+            <Col md={6}><h4>Movies</h4>
             </Col>
             <Col md={6}>
               {!this.state.showForm ? (
@@ -65,12 +65,12 @@ class CategoryList extends Component {
               <Table striped hover>
                 <thead>
                   <tr>
-                    <td>Movie Title</td>
-                    <td>Movie Genre</td>
-                    <td>Movie Duration</td>
-                    <td>Movie Rating</td>
-                    <td>Movie Description</td>
-                    <td colSpan={2} style={{textAlign:"center"}}>Update</td>
+                    <td><h5><strong>Title</strong></h5></td>
+                    <td><h5><strong>Genre</strong></h5></td>
+                    <td><h5><strong>Duration</strong></h5></td>
+                    <td><h5><strong>Rating</strong></h5></td>
+                    <td><h5><strong>Description</strong></h5></td>
+                    <td colSpan={2} style={{textAlign:"center"}}><strong>Update</strong></td>
 
                   </tr>
                 </thead>

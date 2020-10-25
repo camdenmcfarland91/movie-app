@@ -23,6 +23,16 @@ class EditCategory extends Component {
     this.save = this.save.bind(this);
     this.handleChange = this.handleChange.bind(this)
   }
+
+  componentDidMount() {
+    axios.get("http://localhost:4000/api/movies/search/" + this.props.match.params.id)
+      .then(res => {
+        const item = res.data;
+        this.setState({ item });
+        console.log(this.state)
+      })
+  }
+
   handleChange(e) {
     console.log("check", e.target.value)
     const data = this.state.item;

@@ -33,9 +33,9 @@ class Notifications extends Component {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/igorprado"
+                  href="https://github.com/jason-lammers"
                 >
-                  Igor Prado
+                  Jason Lammers
                 </a>
                 . Please checkout the{" "}
                 <a
